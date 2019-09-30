@@ -1,0 +1,12 @@
+AllCops:
+  UseCache: false
+  DisplayConNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  TargetRubyVersion: 2.6
+
+Style/Documentation:
+  Enabled: false
+
+Style/LambdaCall:
+  Enabled: false
