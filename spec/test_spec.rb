@@ -10,8 +10,10 @@ RSpec.describe Erlys::API::Application do
 
   let(:app) { Erlys::API::Application }
 
-  specify do
-    expect(response.status).to eq(200)
-    expect(response.body).to eq("Hello! I'm Erlys!")
+  describe 'GET /' do
+    specify do
+      expect(response.status).to eq(200)
+      expect(response.body).to eq("Hello! I'm Erlys!")
+    end
   end
 end
